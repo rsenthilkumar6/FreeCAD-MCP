@@ -1,0 +1,21 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 9876,
+    "max_clients": 5,
+    "connection_timeout": 30,
+    "buffer_size": 32768,
+    "max_buffer_size": 1048576
+  },
+  "logging": {
+    "max_lines": 100,
+    "level": "INFO"
+  },
+  "security": {
+    "allowed_modules": ["FreeCAD", "Part", "Draft", "Sketcher", "PartDesign", "Mesh", "Arch", "math", "numpy"],
+    "enable_validation": true
+  },
+  "paths": {
+    "macro_dir": "auto"
+  }
+}
